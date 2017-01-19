@@ -250,7 +250,7 @@ export default class DefaultRenderer extends Component {
       <NavigationCard
         {...props}
         key={`card_${key}`}
-        style={[animationStyle, style]}
+        style={[animationStyle, style, { backgroundColor: 'transparent' }]}
         panHandlers={panHandlers}
         renderScene={DefaultRenderer.renderScene}
       />
